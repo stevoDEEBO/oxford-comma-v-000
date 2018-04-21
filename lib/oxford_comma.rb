@@ -9,8 +9,6 @@ def oxford_comma(array)
   #end
   string = ""
   array[0..-2].each do |element|
-    #array[-1] = "and #{array[-1]}"
-    
     element.to_s
     string << element
   end
