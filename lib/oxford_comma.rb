@@ -3,7 +3,7 @@ def oxford_comma(array)
   #  return array.join
   if array.length == 2
     return "#{array.first} and #{array.last}"
-  elsif
+  elsif array.lenth > 2
     array[-1].insert(0, "and ")
   end
   array.join(', ')
