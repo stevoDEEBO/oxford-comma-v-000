@@ -8,7 +8,7 @@ def oxford_comma(array)
   #  array.join(', ')
   #end
   string = ""
-  array[0..-2].each do |element|
+  array.each do |element|
     element.to_s
     string << element
   end
