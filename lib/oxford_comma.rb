@@ -12,5 +12,5 @@ def oxford_comma(array)
     element.to_s
     string << element
   end
-
+  string
 end
